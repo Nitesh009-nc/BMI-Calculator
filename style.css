@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://saynotoobesity.b-cdn.net/wp-content/uploads/2023/04/PHOTO-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 600px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black ;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px black,-5px -5px 5px black;
+}
+.title{
+    text-shadow: 10px 10px 8px black;
+}
+.container-top{
+    margin:10px 8px;
+    text-align: center;
+}
+.row-top{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 255, 0.149);
+}
+.bmiValue{
+    color: blue;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.row-down{
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+.uw{
+    background: lightblue;
+    border: 1px solid black;
+}
+.nw{
+    background: lightsalmon;
+    border: 1px solid black;
+}
+.ow{
+    background: rgba(255, 0, 0, 0.572);
+    border: 1px solid black;
+}
+.ob{
+    background: rgba(255, 0, 0, 0.83);
+    border: 1px solid black;
+}
